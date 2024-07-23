@@ -8,7 +8,7 @@ const DataGraph = (props: Props) => {
     <Layout brownBackground={true}>
       <div
         id="dataGraph"
-        className="flex flex-col justify-center items-start py-[75px] gap-y-[50px] font-endcoin"
+        className="flex flex-col w-full justify-center items-start py-[75px] gap-y-[50px] font-endcoin"
       >
         <p className="text-white text-[30px] endcoin-md:text-[40px] endcoin-xl:text-[48px] text-left font-endcoin-bold">
           Where are we now?

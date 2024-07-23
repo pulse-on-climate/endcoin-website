@@ -90,7 +90,7 @@ export const fetchStaticDataPointsAsync = createAsyncThunk(
 export const fetchProgramBalanceAsync = createAsyncThunk(
   'program/fetch-program-balance',
   async (_, { getState }) => {
-    const programId = 'CsZXQua2LBArR51MtTJE3K1VA4DcxFFWUWU4JSJeJbeR';
+    const programId = '3ueQV5DMwmnif9JBmf7SSvD6Lsf13nBu4dzCQfsjZX3d';
     const url = process.env.REACT_APP_SOLANA_RPC!;
     const connection = new Connection(url, 'confirmed');
 
@@ -104,7 +104,7 @@ export const fetchProgramBalanceAsync = createAsyncThunk(
     //Iterate over each signature to fetch the transaction details
     const signatureArray = Array.from(signaturesInfo.entries());
     signatureArray.reverse();
-    for (const [index, signatureInfo] of signatureArray) {
+    for (const [, signatureInfo] of signatureArray) {
       const signature = signatureInfo.signature;
       const transactionConfig: GetVersionedTransactionConfig = {
         commitment: 'finalized',

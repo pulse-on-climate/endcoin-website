@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import 'github-markdown-css';
 import './whitepaper.css';
 import Layout from '../../../app/Layout/layout';

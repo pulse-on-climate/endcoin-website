@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import {
   AreaChart as AreaChartRecharts,
   Area,
@@ -16,8 +15,6 @@ export default function AreaChart() {
   const windowSize = useWindowSize();
   const width = windowSize[0] > 1030 ? 1000 : windowSize[0] - 48;
   const height = windowSize[1] > 1030 ? 1000 : windowSize[1] - 48;
-
-  console.log('width', width);
 
   return (
     <AreaChartRecharts

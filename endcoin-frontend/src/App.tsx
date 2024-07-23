@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchStaticDataPointsAsync());
-    //dispatch(fetchProgramBalanceAsync());
+    // dispatch(fetchProgramBalanceAsync());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

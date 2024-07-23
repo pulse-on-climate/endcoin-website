@@ -94,9 +94,9 @@ const Hackathon = (props: Props) => {
           <p className="text-white text-[24px] py-2 md:hidden">
             Tasks to be accomplished
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 w-full endcoin-md:flex-row flex-wrap gap-x-12 gap-y-12">
+          <div className="grid grid-cols-1 endcoin-lg:grid-cols-3 w-full endcoin-md:flex-row flex-wrap gap-x-12 gap-y-12">
             {taskItems.map((item, id) => (
-              <HackTile key={id} item={item} />
+              <HackTile key={id} item={item} noFlip={true}/>
             ))}
           </div>
         </div>

@@ -23,4 +23,8 @@ export const NAVBAR_LINKS = [
     name: 'Data',
     link: 'dataGraph',
   },
+  {
+    name: 'Swap',
+    link: 'swap',
+  },
 ];

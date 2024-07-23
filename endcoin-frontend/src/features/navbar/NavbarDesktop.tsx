@@ -1,4 +1,3 @@
-import { EndLogo } from '../../icons/logo.icon';
 import { NAVBAR_LINKS } from '../../constants/navbar-items';
 import { scrollToDiv } from '../../constants/scrollFunction';
 import './navbar.css';
@@ -26,7 +25,8 @@ const SidebarDesktop = (): JSX.Element => {
                   scrollToDiv('coin');
                 }}
               >
-                <EndLogo />
+                {/* <EndLogo /> */}
+                <img src="/endcorp.png" alt="logo" className="h-[40px]" />
               </button>
 
               {

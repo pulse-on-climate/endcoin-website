@@ -13,7 +13,7 @@ const Coin = (props: Props) => {
         className="flex w-full font-endcoin flex-col gap-y-10 endcoin-md:flex-row-reverse justify-center items-center endcoin-md:justify-between min-h-screen"
       >
         <div className="w-full flex justify-center max-h-[450px] max-w-[450px]">
-          <img src={coin} alt="Coin Image" className="w-full h-full" />
+          <img src={coin} alt="Coin" className="w-full h-full" />
         </div>
         <div className="flex flex-col justify-between gap-y-8 w-full">
           <p className="text-white text-[40px] font-endcoin-bold endcoin-lg:text-[48px] endcoin-xl:text-[64px] leading-none">

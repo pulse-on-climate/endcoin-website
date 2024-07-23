@@ -23,7 +23,8 @@ const SidebarResponsive = ({
         >
           {
             <button onClick={() => scrollToDiv('coin')}>
-              <EndLogo />
+              {/* <EndLogo /> */}
+              <img src="/endcorp.png" alt="logo" className="h-[35px]" />
             </button>
           }
 
